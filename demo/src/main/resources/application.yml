@@ -1,0 +1,38 @@
+
+
+spring:
+  mail:
+    host: smtp.qq.com
+    # 邮箱名称
+    username: 1377490586@qq.com
+    # 密码或者授权码
+    password: mpgmypepfvblfjfc
+    # 编码格式
+    default-encoding: UTF-8
+
+fileSavePath: E:\test\
+
+wx:
+  pay:
+    appId: wx5b69c56ac01ed858
+    mchId: 1462547202
+    mchKey: OGL9fvig9y2HrXrQ86tM4jTwyv4ja6G5
+    subAppId:
+    subMchId:
+    keyPath:
+
+ali:
+  pay:
+    app_id: "2016092200567248"
+    format: "json"
+    merchant_private_key: "MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCZO+wFUX26dMWizV/yFjuLApVXCbAZYZD+CspE1TYkOjrrEkf/IQYKBYEWUOms9WN1zOheKYCEazZQwHDR/OZTqhXFk9pQnGm3NjgzUIx6alIS9DGEKX8qC7nQ/VFGzsytxQETy65q29hHuqNPyKdgA6tSDiidfxGzhS0sEX0kplMDF8UnAxZH+tGNfHs/3E2zkbGxYaf1Bt3hRv5KzaJalVN4vtKFvMJMOhnb110zm841lW8RQSC3MJUlnqrEma2dWAjRYiILcci261vzkeVdGgE1KFJo2aTE8f4jwak/wAe3MqHXrKLYhonyu+KCjdlv2km4xqTGvwRZZYe17SKpAgMBAAECggEBAIfmL/Wrh1E1PQ6dDEm81AP+P4pYyjhIYnocAbW4TnMkvZo7tWSc2ilLJmgvTH8bhqE0IKVaM2O9XgeSFLz3iSKMRxDahxVVEyDs0j0YY+4xmya6MawfzWrxyVODRnEA+V/nx4PR8ZdN8Ov0p+Abee3aczer3POJfZ50L1LVE+LKzH7Sw8YIvLeUR0BHfsHqgk6ryXi5/d+xEcqin/nNJH7yHdMOVnG6IWbO6v14aHI0DLGGd6QLiQaoR0bKA5RXNONIb1q1M654Vza+pjFNo4r/6a4n8SgYne68HTS3DmRPv/jhgWcZXb6JTINLyXqRoiWzxHxsnIhQUsX8zy/Y9G0CgYEAy/+hZrRpuPoPi/tPdyiRAKgOpkOHYHe16LWGgkVZ6LukwZSFZKmBcklkCO8IzQxRy8UsZyaJAtPQ+Zn0KSoNuid/JDutUA/adp+Ylt5YHFDfXikRz+RYzbbOkIjPjOebXb74pVr7PdamVzbovs4dPK4jZQoISLfR2CmtQlfPSRMCgYEAwEuLZKZm6Z2ZmcpdVAjOhZaqbtt8erk3kFvTHNNzwk5ZSEiVXrDpT1Qi9t74gu/67rRiLCZpd1QbxmDqRtaChSPN1/8JTyQiTNczEj/HI1u21ccDulXF5bhzFluzeFoJWKW/ItM+8O7Mxjo1jtZRhcXVPThVd7659i6aWKpBeNMCgYEAlJH+iIBIpzFndTl4bH4c7O94i9qOk9FbqLnb1rCPhJJ0sY9rfx58ajHNKzx7mmqof9GAPzevfWGqxr47NmesS7FMRaU42iBRqSceyHHyldzIcRlUIaZajqfe1SDul95uJt5Y1IToieb0inwxEhWm8XSZzpJ56gwGRnpD9xdgngUCgYBFfUdDOQrpk0VFmSZ+zqvrBJZUd0aVhsc4iKZSvWsQpYWIJIqt7Fpzi2ETO2Is1xIkHtV3RO5J7AAZgT5IGQ6TlGu3iXdQvSsT/5R6HMgW0/bPbBrBxGs+Z5hXVQ4XCNplyYe3ywTsxi8D11cxZeuR3vr/I5NnMWo8N30ZW3VLdwKBgBNxV3ePcFMVJVXKgsRv9erhxuhSvtWbK8x6nbmfNoIZ9jYsPgf6nfL6OeOb1TW3p5LojOITrGu1Lw5aiYEHTen2lByrkwrOJK8ELmv+JNhaBlVyblyxLsLzpPoqrEWMNa5FLJD+06M7RLeOl/SBVauhvWldDhKIrk5rg9oP66qm"
+    alipay_public_key: "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAutDb62Gp3krHA+5dt8kKAuGREk9LYqf1lKKrYOqvJTbOh8wXyhptYM3BrGGzWzi2X7frMOpKgjO3R8x2xYEs/IISj3KFoecHf4So9/ezJEjih5TFZQn23MyHdBpY7qlH2p4Z1S6agmBjyacBSUhFhXObEALmLG4ZTsSqG4YJEOb7qikoD/6Ms4AyZfJosutuuiMhfLg8Tue/gJxJh8BN61mlnOrqohtBUzmklTeDNs+YdPbzwd4cLVkYKsWkC8OXEhlreRRqRQAGHiRA/renDtha2JYMkLXJzHroMl6AZf/0CmaKG3qvLzO6Z6ZFmlrX3gWZj0GvFqnEbRSBon7hRQIDAQAB"
+    notify_url: "http://192.168.1.93:8080/alipayTest/notify"
+    return_url: "http://192.168.1.93:8089/payReturn"
+    sign_type: "RSA2"
+    charset: "utf-8"
+    gatewayUrl: "https://openapi.alipaydev.com/gateway.do"
+    logPath: ""
+
+server:
+  port: 8081
