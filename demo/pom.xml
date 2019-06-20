@@ -32,16 +32,9 @@
 
         <!--微信支付-->
         <dependency>
-            <groupId>com.github.binarywang</groupId>
-            <artifactId>wx-java-pay-starter</artifactId>
-            <version>3.4.0</version>
-        </dependency>
-
-        <!--支付宝支付-->
-        <dependency>
-            <groupId>com.alipay.sdk</groupId>
-            <artifactId>alipay-sdk-java</artifactId>
-            <version>3.7.89.ALL</version>
+            <groupId>com.ziv</groupId>
+            <artifactId>sword-pay</artifactId>
+            <version>1.0</version>
         </dependency>
 
         <!-- lombok -->
